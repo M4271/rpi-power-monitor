@@ -4,6 +4,8 @@ This project will allow you to monitor your power situation in real time, includ
 
 This project is derived from and inspired by the resources located at https://learn.openenergymonitor.org and https://github.com/David00/rpi-power-monitor. 
 
+![Grafana](doc/grafana.png "Grafana Power Monitor")
+
 ---
 
 ## How do I install?
