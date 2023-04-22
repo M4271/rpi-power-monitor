@@ -20,19 +20,18 @@ with open(path.join(here, "README.md"), encoding="utf-8") as f:
 
 setup(
     name="rpi_power_monitor",
-    version='0.2.0',
+    version='0.1.0',
     description="Raspberry Pi Power Monitor",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/David00/rpi-power-monitor",
-    author="David00",
-    author_email="github@dalbrecht.tech",
+    url="https://github.com/M4271/rpi-power-monitor",
+    author="M4271N",
     install_requires=[
         "influxdb==5.2.3",
         "prettytable==0.7.2",
         "plotly==4.5.4",
-        "spidev==3.6",
         "requests==2.21.0",
+        "pymodbus==3.1.3",
     ],
     license="GNU General Public License (GPLv3)",
     packages=["rpi_power_monitor"],
